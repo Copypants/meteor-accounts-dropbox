@@ -1,5 +1,8 @@
 Package.describe({
-  summary: "Accounts service for Dropbox"
+  name: 'accounts-dropbox',
+  summary: "Accounts service for Dropbox",
+  version: '1.0.0',
+  git: 'https://github.com/mathieudutour/meteor-accounts-dropbox'
 });
 
 Package.on_use(function (api) {
