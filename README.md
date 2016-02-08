@@ -26,7 +26,7 @@ Note the close=true url parameter.
 ### Credits
 
 Shamelessly based on [@yefim](https://github.com/yefim)'s LinkedIn OAuth2 service.<br>
-Developed by @gcampax<br>
+Developed by @gcampax and @mathieudutour<br>
 Maintained by [Nitrolabs](http://www.nitrolabs.com)
 
 ### Licence
