@@ -1,7 +1,7 @@
 Package.describe({
     name: 'nitrolabs:accounts-dropbox',
     summary: "Accounts service for Dropbox",
-    version: '1.4.0',
+    version: '1.4.1',
     git: 'https://github.com/Nitrolabs/meteor-accounts-dropbox'
 });
 
