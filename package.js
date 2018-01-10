@@ -1,7 +1,7 @@
 Package.describe({
     name: 'copypants:accounts-dropbox',
     summary: "Accounts service for Dropbox",
-    version: '1.4.1',
+    version: '1.4.2',
     git: 'https://github.com/Copypants/meteor-accounts-dropbox'
 });
 
