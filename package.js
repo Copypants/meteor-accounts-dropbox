@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'nitrolabs:accounts-dropbox',
+    name: 'copypants:accounts-dropbox',
     summary: "Accounts service for Dropbox",
     version: '1.4.1',
-    git: 'https://github.com/Nitrolabs/meteor-accounts-dropbox'
+    git: 'https://github.com/Copypants/meteor-accounts-dropbox'
 });
 
 Package.onUse(function (api) {
@@ -11,9 +11,8 @@ Package.onUse(function (api) {
 
     api.imply('accounts-base', ['client', 'server']);
     api.use('accounts-oauth', ['client', 'server']);
-    api.use('nitrolabs:dropbox-oauth@1.4.0', ['client', 'server']);
+    api.use('copypants:dropbox-oauth@1.4.2', ['client', 'server']);
 
     api.addFiles('css/dropbox_login_button.css', 'client');
     api.addFiles('lib/dropbox.js', ['client', 'server']);
 });
-
