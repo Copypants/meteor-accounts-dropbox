@@ -10,7 +10,7 @@ for information about Meteor Accounts (including the usage of Atmosphere package
 
 ### Usage
 
-1. Add the package: ```meteor add nitrolabs:accounts-dropbox```
+1. Add the package: ```meteor add copypants:accounts-dropbox```
 2. Read the 'Meteor.loginWith<ExternalService>' section of [Meteor auth documentation](http://docs.meteor.com/#/full/meteor_loginwithexternalservice) and make sure you set up your config and secret correctly.
 3. Call ```Meteor.loginWithDropbox();```
 
@@ -26,8 +26,6 @@ Note the close=true url parameter.
 ### Credits
 
 Developed by @gcampax and @mathieudutour.
-
-Maintained by [Nitrolabs](https://www.nitrolabs.com)
 
 ### Licence
 MIT
